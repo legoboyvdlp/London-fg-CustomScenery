@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<PropertyList>
+ <path>egkk_maint_1_2.ac</path>
+
+<animation>
+   <type>textranslate</type> 
+   <object-name>maint_1_2</object-name> 
+   <property>/sim/time/sun-angle-rad</property>
+   <step> 1.57 </step>
+   <factor>0.318471338</factor>
+   <center>
+     <x-m> 0 </x-m>
+     <y-m> 0 </y-m>
+     <z-m> 0 </z-m>
+   </center>
+   <axis> 
+     <x> -1 </x> 
+     <y>  0 </y> 
+     <z>  0 </z> 
+   </axis>
+</animation>
+
+<animation> 
+ <type>material</type> 
+ <object-name>maint_1_2</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.81</red>	
+  <green>0.81</green>	
+  <blue>0.81</blue>
+ </emission>
+</animation>
+  
+<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>25000</max-m>
+	</animation>
+
+	<maint_1_2Xparams>
+		<light-near>0.4</light-near>
+		<light-med>0.8</light-med>
+		<light-far>10</light-far>
+	</maint_1_2Xparams>
+
+	<animation>
+		<type>select</type>
+		<name>maint_1_2XNight</name>
+		<object-name>maint_1_2X</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>alpha-test</type>
+		<object-name>maint_1_2X</object-name>
+		<alpha-factor>0.001</alpha-factor>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>maint_1_2X</object-name>
+		<offset-m>58.122355</offset-m>
+		<axis>
+			<x>10.658456</x>
+			<y>46.379185</y>
+			<z>33.370296</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>maint_1_2X</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>maint_1_2X</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../maint_1_2Xparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../maint_1_2Xparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../maint_1_2Xparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+</PropertyList>

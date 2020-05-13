@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+
+This model is based on the original architects' drawings
+
+Thanks to Emilain Huminiuc for assistance with some of the textures
+
+© Vivian Meazza 2013
+
+vivian.meazza at lineone.net
+
+-->
+
+<PropertyList>
+
+	<path>London-Bridge.ac</path>
+
+	<animation>
+		<enable-hot type="bool">true</enable-hot>
+	</animation>
+
+</PropertyList>

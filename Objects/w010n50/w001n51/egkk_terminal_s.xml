@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<PropertyList>
+ <path>egkk_terminal_s.ac</path>
+
+<animation>
+   <type>textranslate</type> 
+   <object-name>terminal_s</object-name> 
+   <property>/sim/time/sun-angle-rad</property>
+   <step> 1.57 </step>
+   <factor>0.318471338</factor>
+   <center>
+     <x-m> 0 </x-m>
+     <y-m> 0 </y-m>
+     <z-m> 0 </z-m>
+   </center>
+   <axis> 
+     <x> -1 </x> 
+     <y>  0 </y> 
+     <z>  0 </z> 
+   </axis>
+</animation>
+
+<animation> 
+ <type>material</type> 
+ <object-name>terminal_s</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>0.81</red>	
+  <green>0.81</green>	
+  <blue>0.81</blue>
+ </emission>
+</animation>
+
+<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>25000</max-m>
+	</animation>
+
+	<terminal_sXparams>
+		<light-near>0.4</light-near>
+		<light-med>0.8</light-med>
+		<light-far>10</light-far>
+	</terminal_sXparams>
+
+	<animation>
+		<type>select</type>
+		<name>terminal_sXNight</name>
+		<object-name>terminal_sX</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>alpha-test</type>
+		<object-name>terminal_sX</object-name>
+		<alpha-factor>0.001</alpha-factor>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>terminal_sX</object-name>
+		<offset-m>85.481945</offset-m>
+		<axis>
+			<x>-69.778984</x>
+			<y>-24.910368</y>
+			<z>41.620884</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>terminal_sX</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>terminal_sX</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../terminal_sXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../terminal_sXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../terminal_sXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+</PropertyList>

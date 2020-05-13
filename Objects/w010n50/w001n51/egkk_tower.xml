@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+<path>egkk_tower.ac</path>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>radar</object-name>
+   <property>/sim/time/elapsed-sec</property>
+  <factor>-90.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>38.5</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+<animation>
+   <type>textranslate</type> 
+   <object-name>tower</object-name> 
+   <property>/sim/time/sun-angle-rad</property>
+   <step> 1.57 </step>
+   <factor>0.318471338</factor>
+   <center>
+     <x-m> 0 </x-m>
+     <y-m> 0 </y-m>
+     <z-m> 0 </z-m>
+   </center>
+   <axis> 
+     <x> -1 </x> 
+     <y>  0 </y> 
+     <z>  0 </z> 
+   </axis>
+</animation>
+
+<animation> 
+ <type>material</type> 
+ <object-name>tower</object-name>
+ <condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+ <emission>	
+  <red>1</red>	
+  <green>1</green>	
+  <blue>1</blue>
+ </emission>
+</animation>
+
+   <animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>25000</max-m>
+	</animation>
+
+	<hazardXparams>
+		<light-near>0.4</light-near>
+		<light-med>0.8</light-med>
+		<light-far>10</light-far>
+	</hazardXparams>
+
+	<animation>
+		<type>select</type>
+		<name>hazardXNight</name>
+		<object-name>hazardX</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>alpha-test</type>
+		<object-name>hazardX</object-name>
+		<alpha-factor>0.001</alpha-factor>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>hazardX</object-name>
+		<offset-m>46.417927</offset-m>
+		<axis>
+			<x>0.044449</x>
+			<y>7.162186</y>
+			<z>45.862022</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>hazardX</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>hazardX</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../hazardXparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../hazardXparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../hazardXparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+      <hazard2Xparams>
+		<light-near>0.4</light-near>
+		<light-med>0.8</light-med>
+		<light-far>10</light-far>
+	</hazard2Xparams>
+
+	<animation>
+		<type>select</type>
+		<name>hazard2XNight</name>
+		<object-name>hazard2X</object-name>
+		<condition>
+			<greater-than>
+				<property>/sim/time/sun-angle-rad</property>
+				<value>1.57</value>
+			</greater-than>
+		</condition>
+	</animation>
+
+	<animation>
+		<type>alpha-test</type>
+		<object-name>hazard2X</object-name>
+		<alpha-factor>0.001</alpha-factor>
+	</animation>
+
+	<animation>
+		<type>translate</type>
+		<object-name>hazard2X</object-name>
+		<offset-m>46.521165</offset-m>
+		<axis>
+			<x>0.044449</x>
+			<y>-7.803314</y>
+			<z>45.862022</z>
+		</axis>
+	</animation>
+
+	<animation>
+		<type>billboard</type>
+		<object-name>hazard2X</object-name>
+		<spherical type="bool">true</spherical>
+	</animation>
+
+	<animation>
+		<type>dist-scale</type>
+		<object-name>hazard2X</object-name>
+		<interpolation>
+			<entry>
+				<ind>0</ind>
+				<dep alias="../../../../hazard2Xparams/light-near"/>
+			</entry>
+			<entry>
+				<ind>500</ind>
+				<dep alias="../../../../hazard2Xparams/light-med"/>
+			</entry>
+			<entry>
+				<ind>16000</ind>
+				<dep alias="../../../../hazard2Xparams/light-far"/>
+			</entry>
+		</interpolation>
+	</animation>
+
+</PropertyList>

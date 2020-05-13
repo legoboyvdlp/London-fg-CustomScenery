@@ -1,0 +1,5 @@
+OBJECT_BASE 2941802.btg
+OBJECT EGTR.btg
+OBJECT_SHARED Models/Airport/windsock.xml -0.322427 51.657133 91.5 0.00
+OBJECT_SHARED Models/Airport/windsock.xml -0.326559 51.654877 97.7 0.00
+OBJECT_SHARED Models/Airport/windsock.xml -0.324037 51.655297 95.7 0.00
