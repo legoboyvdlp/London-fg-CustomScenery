@@ -15,3 +15,39 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac -0.8255073 51.7999391 80.61 113.
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -0.8210845 51.7936326 84.58 113.45
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -0.8017211 51.8179782 81 194.15
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -0.7649856 51.8237081 85.54 195.48
+
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/lib/industrial13x24.ac -0.93235 51.77794 86.81 307.23
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93190 51.77768 87.12 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93186 51.77759 87.13 333.44
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93193 51.77755 87.09 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93194 51.77749 87.08 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93199 51.77753 87.05 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93204 51.77766 86.99 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93208 51.77765 86.88 180.003
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93232 51.77774 86.77 180.003
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93231 51.77770 86.76 45.0007
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93224 51.77768 86.77 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93222 51.77770 86.77 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93218 51.77769 86.78 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93214 51.77772 86.79 116.572
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93208 51.77776 86.80 135.002
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93204 51.77778 86.81 135.002
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93201 51.77781 86.82 180.003
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93197 51.77785 86.82 225.003
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93202 51.77791 86.85 180.003
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93207 51.77794 86.85 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93208 51.77797 86.87 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93214 51.77801 86.86 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93218 51.77804 86.88 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93223 51.77808 86.89 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93304 51.77680 86.42 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93333 51.77688 86.27 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93340 51.77695 86.27 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93306 51.77719 86.32 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93307 51.77726 86.46 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93303 51.77734 86.52 0
+OBJECT_SHARED Models/Trees/billboard-tree.xml -0.93293 51.77753 86.64 0
+# END dsf2stg

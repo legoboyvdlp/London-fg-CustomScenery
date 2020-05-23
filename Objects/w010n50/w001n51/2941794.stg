@@ -138,3 +138,47 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac -0.3685137 51.6236779 93.55 250.
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -0.3683562 51.5842395 50.71 279.32
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -0.3675409 51.5818608 50.27 281.83
 OBJECT_SHARED Models/Power/generic_pylon_50m.ac -0.3670602 51.5804101 49.63 281.64
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/lib/6space_wStop.ac -0.41719 51.54924 32.19 353.813
+OBJECT_SHARED Models/Airport/cargobox.xml -0.41604 51.54951 31.81 0
+OBJECT_SHARED Models/Airport/cargobox.xml -0.41608 51.54952 31.82 0
+OBJECT_SHARED Models/lib/transformer3x3.ac -0.40870 51.55162 31.81 26.3841
+OBJECT_SHARED Models/lib/industrial15x22.ac -0.40911 51.55224 32.62 28.8711
+OBJECT_SHARED Models/lib/container6-HD.ac -0.41611 51.54958 31.83 0
+OBJECT_SHARED Models/lib/container6-HD.ac -0.41599 51.54958 31.80 0
+OBJECT_SHARED Models/Airport/cargoip.xml -0.41609 51.54950 31.83 0
+OBJECT_SHARED Models/lib/loader.ac -0.41690 51.54962 32.05 270
+OBJECT_SHARED Models/lib/HorizTanks2.ac -0.42348 51.54929 33.88 175.31
+OBJECT_SHARED Models/lib/SmHangar.ac -0.42111 51.54939 33.27 286.395
+OBJECT_SHARED Models/lib/MedHangar.ac -0.41252 51.55741 39.49 111.61
+OBJECT_SHARED Models/lib/MedHangar.ac -0.41802 51.54946 32.38 354.192
+OBJECT_SHARED Models/lib/caisses_group.ac -0.41195 51.54945 31.04 90
+OBJECT_SHARED Models/lib/cargo-dolly-parking-HD.ac -0.41638 51.54955 31.91 174.673
+OBJECT_SHARED Models/lib/CargoDollyWithContainer.ac -0.41697 51.54964 32.08 170.965
+OBJECT_SHARED Models/lib/belt_loader.ac -0.41919 51.54996 32.89 270
+OBJECT_SHARED Models/lib/LgMaint.ac -0.41491 51.55696 38.67 111.874
+OBJECT_SHARED Models/lib/office65x50.ac -0.42023 51.55650 37.61 287.905
+OBJECT_SHARED Models/lib/office112x50.ac -0.41750 51.55697 38.20 289.295
+OBJECT_SHARED Models/lib/FireStationLg.ac -0.41343 51.55730 39.22 290.493
+OBJECT_SHARED Models/lib/fuel-truck.xml -0.42307 51.54918 33.69 265.621
+OBJECT_SHARED Models/lib/fuel-truck.xml -0.42217 51.54926 33.51 348.695
+OBJECT_SHARED Models/lib/fuel-truck.xml -0.42337 51.54942 33.95 174.625
+OBJECT_SHARED Models/Airport/Avgas_Pump.ac -0.42348 51.54938 33.94 174.574
+OBJECT_SHARED Models/lib/hangarUL10x30.ac -0.40964 51.55208 32.29 31.1728
+OBJECT_SHARED Models/lib/office32x25n.ac -0.40778 51.55085 31.31 236.961
+OBJECT_SHARED Models/lib/office32x25.ac -0.40727 51.55126 31.75 326.732
+OBJECT_SHARED Models/lib/fboModern1.ac -0.41900 51.54976 32.75 265.224
+OBJECT_SHARED Models/Airport/Vehicle/generic-trailer-GPU.xml -0.41780 51.54992 32.42 47.8901
+OBJECT_SHARED Models/Airport/Vehicle/generic-trailer-GPU.xml -0.41282 51.54954 31.15 58.8437
+OBJECT_SHARED Models/Airport/Vehicle/generic-trailer-GPU.xml -0.41368 51.54963 31.30 0
+OBJECT_SHARED Models/Airport/Vehicle/generic-trailer-GPU.xml -0.41461 51.54980 31.50 83.1348
+OBJECT_SHARED Models/Airport/Vehicle/generic-trailer-GPU.xml -0.41555 51.54984 31.72 87.0405
+OBJECT_SHARED Models/Airport/Vehicle/generic-trailer-GPU.xml -0.41653 51.54988 32.03 85.0739
+OBJECT_SHARED Models/lib/luggage-truck-HD.ac -0.41429 51.54951 31.40 90
+OBJECT_SHARED Models/lib/luggage-truck-HD.ac -0.41292 51.54940 31.18 90
+OBJECT_SHARED Models/lib/luggage-truck-HD.ac -0.41296 51.54940 31.18 93.8123
+OBJECT_SHARED Models/lib/luggage-truck-HD.ac -0.41320 51.54941 31.22 90
+# END dsf2stg
+

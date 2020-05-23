@@ -95,3 +95,25 @@ OBJECT_SHARED Models/Power/generic_pylon_50m.ac -0.7635338 51.4133432 66.22 353.
 OBJECT_STATIC ReadingIntBusPark.ac -0.97423 51.415649 40.92 23
 OBJECT_STATIC TheBladeReading.ac -0.966589 51.455581 45.71 114.5
 OBJECT_STATIC ClearwaterCtReading.ac -0.968852 51.460574 42.62 100
+
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/lib/shed8x10.ac -0.77307 51.49434 33.30 197.613
+OBJECT_SHARED Models/lib/shed8x10.ac -0.76529 51.49801 33.44 341.97
+OBJECT_SHARED Models/Misc/6barrels.ac -0.76558 51.49794 33.48 215.962
+OBJECT_SHARED Models/Misc/6barrels.ac -0.76565 51.49798 33.52 138.721
+OBJECT_SHARED Models/Misc/6barrels.ac -0.76569 51.49799 33.54 147.175
+OBJECT_SHARED Models/StreetFurniture/trash-container.ac -0.77227 51.49352 33.18 198.449
+OBJECT_SHARED Models/lib/stack_of_cones.ac -0.77204 51.49354 33.15 153.91
+OBJECT_SHARED Models/lib/stack_of_cones.ac -0.77203 51.49357 33.15 193.527
+OBJECT_SHARED Models/lib/stack_of_cones.ac -0.77207 51.49356 33.15 200.476
+OBJECT_SHARED Models/Airport/switch_control_cabinet.ac -0.77273 51.49365 33.23 19.6439
+OBJECT_SHARED Models/Airport/switch_control_cabinet.ac -0.77275 51.49363 33.23 19.6439
+OBJECT_SHARED Models/Airport/switch_control_cabinet.ac -0.77276 51.49364 33.23 19.6439
+OBJECT_SHARED Models/Airport/Avgas_Pump.ac -0.77291 51.49355 33.26 197.948
+OBJECT_SHARED Models/StreetFurniture/Litter_Bin.ac -0.77218 51.49353 33.17 238.396
+OBJECT_SHARED Models/StreetFurniture/Litter_Bin.ac -0.77220 51.49352 33.18 300.634
+OBJECT_SHARED Models/StreetFurniture/Litter_Bin.ac -0.77220 51.49354 33.17 201.481
+OBJECT_SHARED Models/StreetFurniture/Litter_Bin.ac -0.77222 51.49353 33.18 210.26
+# END dsf2stg
