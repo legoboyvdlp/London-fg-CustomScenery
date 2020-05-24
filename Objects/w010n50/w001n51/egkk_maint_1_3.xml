@@ -36,10 +36,10 @@
   </greater-than>
  </condition>
  <emission>	
-  <red>1</red>	
-  <green>1</green>	
-  <blue>1</blue>
+  <red>0.8</red>	
+  <green>0.8</green>	
+  <blue>0.8</blue>
  </emission>
-</animation>
+ </animation>
 
 </PropertyList>
